@@ -61,7 +61,7 @@ var users = [{
         heading: './image/咖啡厅-min.jpg'
     },
     {
-        heading: './image/枪械集合-min.jpg'
+        heading: './image/枪械合集-min.jpg'
     },
     {
         heading: './image/室外-min.jpg'
