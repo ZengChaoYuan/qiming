@@ -7,18 +7,15 @@ function tableInit() {
     for (var i = 0; i < users.length; i++) {
         var tr1 = document.createElement("tr"); //创建元素
         tr1.style.textAlign = "center";
-
-
-
-        //头像
-        var td4 = document.createElement("td");
+        //作品
+        var td1 = document.createElement("td");
         var img = document.createElement("img");
         img.src = users[i].heading;
-        td4.appendChild(img);
+        td1.appendChild(img);
         img.style.width = "100%";
         //img.style.header = "50px";
-        td4.appendChild(img); //添加元素
-        tr1.appendChild(td4);
+        td1.appendChild(img); //添加元素
+        tr1.appendChild(td1);
         tbody.appendChild(tr1);
 
     }
